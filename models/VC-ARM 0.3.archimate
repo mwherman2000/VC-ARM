@@ -209,7 +209,7 @@
     <element xsi:type="archimate:FlowRelationship" name="Verify Holder Request/Response" id="id-67c13bd41e844f39aa894c0939af47bf" source="id-8cd77d6c3fc24231b0e1d58b91e738ea" target="id-a4e2ca0fa5ec4c0bad6449ffd2c2619e"/>
   </folder>
   <folder name="Views" id="id-19c0f59c23d349d19f16ace39ee05d7e" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents: Hollace Holder" id="id-057761f3dbe04865ae358b3adf562c9b">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents Hollace Holder" id="id-057761f3dbe04865ae358b3adf562c9b">
       <child xsi:type="archimate:DiagramObject" id="id-b266989dbb77420ca4b0226c500523d9" targetConnections="id-631323c7e8df4ec792a6a9dda315b1e4" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#d5ffff" archimateElement="id-405c42a06ab948eea967fe7dd9a34a89">
         <bounds x="48" y="119" width="120" height="58"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-b14620dcebba415a85351bb4efc1ab07" textPosition="0" source="id-b266989dbb77420ca4b0226c500523d9" target="id-88c50493eec0427f935a317f36d0f21b" archimateRelationship="id-786967b79406474e94b7978a9ec0ab1d"/>
@@ -312,7 +312,7 @@
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 - Holder</content>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents: Izzy Issuer" id="id-075b1aac61ed49efa0bf8717405aa182">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents Izzy Issuer" id="id-075b1aac61ed49efa0bf8717405aa182">
       <child xsi:type="archimate:DiagramObject" id="id-b452280c2ea241edb73e3cf642ee895a" targetConnections="id-e1b6d0027162420bb99ec0384fd8ad17" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#d5ffd5" archimateElement="id-9a28ad79bb2a4a34bd42419090201f62">
         <bounds x="48" y="119" width="120" height="58"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-21d2c2d679cb40049f32d72b531e6f54" textPosition="0" source="id-b452280c2ea241edb73e3cf642ee895a" target="id-bc8906d875194695850c2d771b32132a" archimateRelationship="id-2757869e44894fffb9bb8b27be30a095"/>
@@ -493,7 +493,7 @@
         </child>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents: Vera Verifier" id="id-423198ff6d6d4ae796186b3ce2f7b6b9">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents Vera Verifier" id="id-423198ff6d6d4ae796186b3ce2f7b6b9">
       <child xsi:type="archimate:DiagramObject" id="id-78ee92f7a2d94d2cb4d55d85bc8e2240" targetConnections="id-2eaddbc1ffd6427eb878f4afc958e911" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#ffead5" archimateElement="id-3432af7e3a2c4e6293184ba2ba4ceaf4">
         <bounds x="48" y="119" width="120" height="58"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a080d2b2622c46c888bdb1576e699791" textPosition="0" source="id-78ee92f7a2d94d2cb4d55d85bc8e2240" target="id-a35423fa2eb343c99faa7294427f309b" archimateRelationship="id-3c036f0228f94363b85caec5daff0681"/>
@@ -600,7 +600,7 @@
         </child>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Swimlanes-VC Issuing Process" id="id-6085e76d40e44f57abc851fc9fc211aa">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Swimlanes VC Issuing Process" id="id-6085e76d40e44f57abc851fc9fc211aa">
       <child xsi:type="archimate:DiagramObject" id="id-9fd4688d6f194a919dc3f53ee418a4c2" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d5ffd5" archimateElement="id-bac1079afa2d446da9e2e00d97c5c70d">
         <bounds x="24" y="84" width="397" height="865"/>
       </child>
@@ -615,7 +615,7 @@
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 - VC Issuing Process</content>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Swimlanes-VC Presentation Process" id="id-62bd39098d3749e79229170d30a97f9c">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Swimlanes VC Presentation Process" id="id-62bd39098d3749e79229170d30a97f9c">
       <child xsi:type="archimate:Note" id="id-68d8da05414647aead46b4a88d854976" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
         <bounds x="24" y="24" width="1285" height="49"/>
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 - VC Presentation-Verification Process</content>
@@ -630,7 +630,7 @@
         <bounds x="912" y="96" width="400" height="865"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Swimlanes-VC Verification Process" id="id-609190217838412aab943aadbbafa306">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Swimlanes VC Verification Process" id="id-609190217838412aab943aadbbafa306">
       <child xsi:type="archimate:Note" id="id-7c90dcc250ad467aa86d836c3d78271f" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
         <bounds x="24" y="24" width="1285" height="49"/>
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 - VC Verification Process</content>
@@ -645,7 +645,7 @@
         <bounds x="912" y="96" width="400" height="865"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Swimlanes-VC Self-Issuing Process" id="id-74e88234fb8c4c7dab6addb516dd1cb1">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Swimlanes VC Self-Issuing Process" id="id-74e88234fb8c4c7dab6addb516dd1cb1">
       <child xsi:type="archimate:Note" id="id-ca77cc1254484b33b851228bf163a907" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
         <bounds x="24" y="24" width="1285" height="49"/>
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 - VC -Self-Issuing Process</content>
@@ -660,7 +660,7 @@
         <bounds x="912" y="96" width="400" height="865"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Communication Flows: Issuer-and-Holder" id="id-4c0af73380a04267b448e217e11a80a4">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Communication Flows Issuer-and-Holder" id="id-4c0af73380a04267b448e217e11a80a4">
       <child xsi:type="archimate:DiagramObject" id="id-750b1f2c279f401fa870ed70305955ee" targetConnections="id-aee733085cfb47bca7f643837ab68b98" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#d5ffd5" archimateElement="id-9a28ad79bb2a4a34bd42419090201f62">
         <bounds x="48" y="119" width="120" height="58"/>
       </child>
@@ -963,7 +963,7 @@
         </child>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Communication Flows: Holder-and-Verifier" id="id-9425dcee0fba4a4399e4e688cb94f053">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Communication Flows Holder-and-Verifier" id="id-9425dcee0fba4a4399e4e688cb94f053">
       <child xsi:type="archimate:Note" id="id-1a83687ba6c64d87bed325a3a9033107" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
         <bounds x="24" y="24" width="937" height="49"/>
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 - Holder-and-Verifier Communicatons</content>
@@ -1140,7 +1140,7 @@
         </child>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Agents-Services: Verifiable Data Registry (VDR) Agent" id="id-5719bd4106c44f809f9193cd09aaadfc">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Agents-Services Verifiable Data Registry (VDR) Agent" id="id-5719bd4106c44f809f9193cd09aaadfc">
       <child xsi:type="archimate:Note" id="id-ebb9675e52ee4017840da34cc7235423" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
         <bounds x="24" y="24" width="577" height="61"/>
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 Verifiable Data Registry (VDR) Agent</content>
@@ -1191,7 +1191,7 @@
         </child>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Agents-Services: System of Record (SOR) Agent (Service)" id="id-e9d60a40a1af436ca2ea83347a039677">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Agents-Services System of Record (SOR) Agent (Service)" id="id-e9d60a40a1af436ca2ea83347a039677">
       <child xsi:type="archimate:DiagramObject" id="id-9da8040d45d54799a208a37d38a88dfa" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffd5ff" archimateElement="id-504f46941d5a4f5194e0964522c8a19e">
         <bounds x="24" y="108" width="373" height="385"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-287fb35535534d81b0f543a413b19b04" source="id-9da8040d45d54799a208a37d38a88dfa" target="id-0f243a5f5abf44d7a5fe2fe53066f53a" archimateRelationship="id-f3d304e7b255427e946b026d9e43828d"/>
@@ -1374,7 +1374,7 @@ Creative Commons may be contacted at https://creativecommons.org/.&#xD;
         <bounds x="24" y="108" width="577" height="133"/>
         <content>Intended Audience&#xD;
 &#xD;
-The intended audience for the VC-ARM model is a broad range of professionals interested in furthering the application and use of Verifiable Credentials for use in software apps, agents, and services. This includes software architects, application developers, and user experience (UX) specialists; as well as people involved in a broad range of standards efforts related to decentralized identity, verified credentials, and secure storage.&#xD;
+The intended audience for the VC-ARM model is a broad range of professionals interested in furthering the application of Verifiable Credentials technology for use in software apps, agents, and services. This includes software architects, application developers, and user experience (UX) specialists; as well as people involved in a broad range of standards efforts related to decentralized identity, verified credentials, and secure storage.&#xD;
 </content>
       </child>
       <child xsi:type="archimate:Note" id="id-7f38e41bc8eb426baebef8edabc20900" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
