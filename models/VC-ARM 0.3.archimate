@@ -168,7 +168,7 @@
     <element xsi:type="archimate:AccessRelationship" name="Record DID Document" id="id-518aec8e9cfe4ad3b027e6816e016b78" source="id-7ab0f2a4dbd24fd982598d35aa2033d5" target="id-d2669cd4869b4918b96d83f2697f63bf" accessType="3"/>
   </folder>
   <folder name="Views" id="id-19c0f59c23d349d19f16ace39ee05d7e" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Hollace Holder" id="id-057761f3dbe04865ae358b3adf562c9b">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents: Hollace Holder" id="id-057761f3dbe04865ae358b3adf562c9b">
       <child xsi:type="archimate:DiagramObject" id="id-b266989dbb77420ca4b0226c500523d9" targetConnections="id-631323c7e8df4ec792a6a9dda315b1e4" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#d5ffff" archimateElement="id-405c42a06ab948eea967fe7dd9a34a89">
         <bounds x="48" y="119" width="120" height="58"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-b14620dcebba415a85351bb4efc1ab07" textPosition="0" source="id-b266989dbb77420ca4b0226c500523d9" target="id-88c50493eec0427f935a317f36d0f21b" archimateRelationship="id-786967b79406474e94b7978a9ec0ab1d"/>
@@ -271,7 +271,7 @@
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 - Holder</content>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Izzy Issuer" id="id-075b1aac61ed49efa0bf8717405aa182">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents: Izzy Issuer" id="id-075b1aac61ed49efa0bf8717405aa182">
       <child xsi:type="archimate:DiagramObject" id="id-b452280c2ea241edb73e3cf642ee895a" targetConnections="id-e1b6d0027162420bb99ec0384fd8ad17" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#d5ffd5" archimateElement="id-9a28ad79bb2a4a34bd42419090201f62">
         <bounds x="48" y="119" width="120" height="58"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-21d2c2d679cb40049f32d72b531e6f54" textPosition="0" source="id-b452280c2ea241edb73e3cf642ee895a" target="id-bc8906d875194695850c2d771b32132a" archimateRelationship="id-2757869e44894fffb9bb8b27be30a095"/>
@@ -362,7 +362,7 @@
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 - Issuer</content>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Vera Verifier" id="id-423198ff6d6d4ae796186b3ce2f7b6b9">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents: Vera Verifier" id="id-423198ff6d6d4ae796186b3ce2f7b6b9">
       <child xsi:type="archimate:DiagramObject" id="id-78ee92f7a2d94d2cb4d55d85bc8e2240" targetConnections="id-2eaddbc1ffd6427eb878f4afc958e911" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#ffead5" archimateElement="id-3432af7e3a2c4e6293184ba2ba4ceaf4">
         <bounds x="48" y="119" width="120" height="58"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a080d2b2622c46c888bdb1576e699791" textPosition="0" source="id-78ee92f7a2d94d2cb4d55d85bc8e2240" target="id-a35423fa2eb343c99faa7294427f309b" archimateRelationship="id-3c036f0228f94363b85caec5daff0681"/>
@@ -476,7 +476,7 @@
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 - VC Issuing Process</content>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Swinlanes-VC Presentation Process" id="id-62bd39098d3749e79229170d30a97f9c">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Swimlanes-VC Presentation Process" id="id-62bd39098d3749e79229170d30a97f9c">
       <child xsi:type="archimate:Note" id="id-68d8da05414647aead46b4a88d854976" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
         <bounds x="24" y="24" width="1285" height="49"/>
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 - VC Presentation-Verification Process</content>
@@ -521,7 +521,7 @@
         <bounds x="912" y="96" width="400" height="865"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Issuer-and-Holder Communication" id="id-4c0af73380a04267b448e217e11a80a4">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Communication Flows: Issuer-and-Holder" id="id-4c0af73380a04267b448e217e11a80a4">
       <child xsi:type="archimate:DiagramObject" id="id-750b1f2c279f401fa870ed70305955ee" targetConnections="id-aee733085cfb47bca7f643837ab68b98" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#d5ffd5" archimateElement="id-9a28ad79bb2a4a34bd42419090201f62">
         <bounds x="48" y="119" width="120" height="58"/>
       </child>
@@ -723,7 +723,7 @@
         </child>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Holder-and-Verifier Communication" id="id-9425dcee0fba4a4399e4e688cb94f053">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Communication Flows: Holder-and-Verifier" id="id-9425dcee0fba4a4399e4e688cb94f053">
       <child xsi:type="archimate:Note" id="id-1a83687ba6c64d87bed325a3a9033107" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
         <bounds x="24" y="24" width="937" height="49"/>
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 - Holder-and-Verifier Communicatons</content>
@@ -887,7 +887,7 @@
         </child>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Verifiable Data Registry (VDR) Agent" id="id-5719bd4106c44f809f9193cd09aaadfc">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Agents-Services: Verifiable Data Registry (VDR) Agent" id="id-5719bd4106c44f809f9193cd09aaadfc">
       <child xsi:type="archimate:Note" id="id-ebb9675e52ee4017840da34cc7235423" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
         <bounds x="24" y="24" width="577" height="61"/>
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 Verifiable Data Registry (VDR) Agent</content>
