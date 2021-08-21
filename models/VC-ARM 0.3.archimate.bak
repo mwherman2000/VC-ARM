@@ -1229,6 +1229,32 @@ A: When a role (their agent actually) is not doing any work, it is in the Listen
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 FREQUENTLY ASKED QUESTIONS (FAQ)</content>
       </child>
     </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="LICENSE" id="id-d31e320a4c5748e6b4f015014c75f41c">
+      <child xsi:type="archimate:Note" id="id-6c5f725d98894e58b16cd921f4421f53" textAlignment="1" fillColor="#ffffff">
+        <bounds x="24" y="24" width="517" height="349"/>
+        <content>MIT License&#xD;
+&#xD;
+Copyright (c) 2021 Michael Herman (Trusted Digital Web)&#xD;
+&#xD;
+Permission is hereby granted, free of charge, to any person obtaining a copy&#xD;
+of this software and associated documentation files (the &quot;Software&quot;), to deal&#xD;
+in the Software without restriction, including without limitation the rights&#xD;
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&#xD;
+copies of the Software, and to permit persons to whom the Software is&#xD;
+furnished to do so, subject to the following conditions:&#xD;
+&#xD;
+The above copyright notice and this permission notice shall be included in all&#xD;
+copies or substantial portions of the Software.&#xD;
+&#xD;
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&#xD;
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&#xD;
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&#xD;
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&#xD;
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&#xD;
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&#xD;
+SOFTWARE.</content>
+      </child>
+    </element>
   </folder>
   <purpose>This is the architecture reference model (ARM) for Verified Credentials.&#xD;
 &#xD;
