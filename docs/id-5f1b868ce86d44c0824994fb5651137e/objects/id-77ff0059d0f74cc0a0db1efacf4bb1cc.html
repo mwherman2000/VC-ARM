@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title></title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b class="i18n-elementtype-DiagramModelNote"></b>
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelNote"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelNote" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+                       <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-content"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">From: Joe Andrieu &lt;joe@legreq.com&gt; 
+Sent: August 16, 2021 3:16 PM
+To: Credentials Community Group &lt;public-credentials@w3.org&gt;
+Subject: Diagrams for VC HTTP API work [was Re: [AGENDA] VC HTTP API Work Item - August 17th 2021]
+
+Howdy folks,
+
+Based on conversations with the use case team, I've put together the attached diagrams, illustrating a minimum conceptual model based on the USCIS Green Card use case, as implemented using CHAPI.
+
+I'm sure this model is lacking some elements for folks who have a slightly different configuration. I chose this use case because it is the one I'm most familiar with, making it easiest to be complete. I'd like to speak to folks with different scenarios and see if we can't come up with a variation that covers your requirements. 
+
+A few notes.
+
+1. There are sequence and communications diagrams for both issuance and verification, plus a class diagram.
+
+2. All of the components are "owned" by one of the core roles (Holder, Issuer, Verifier) are color coded.
+
+3. The class diagram aggregates the method calls on each of the lifelines in the other diagrams.
+
+4. The components are
+  a. Holder The entity who holds the VC once issued and later presents it for verification.
+  b. Holder Application The software or service that allows holders to manage their credentials. Often called a wallet. For symmetry, it could be called a Holder Service.
+  c. Storage Service The software or service that actually stores VCs long term (on behalf of the holder)
+  d. Issuer Role The website or software that provides issuing functionality to a holder on behalf of that issuer)
+  e. Issuer Service Software or service that actually signs VCs and VPs) This component is used by both the issuer  (to mint VCs) and the holder (to create VPs for presentation)
+  f. Verifier Role The website or software that uses a Verification Service as part of its decision making process for providing services to holders.
+  g. Verifier Service The software or service that verifies VCs and VPs by checking proofs and checking status.
+
+Note that there are more components than had previously been itemized in the vc-http-api work, because storage and status services had not be broken out as distinct capabilities. This sometimes caused confusion. Some implementations will bundle all or some of these components into a full-stack credential platform, however, the APIs, IMO, must support interoperability between these components. So, yes, a Holder Application will need to have a way to get VPs created. Instead of assuming that's a subcomponent of the Holder Application, breaking it out illustrates, for example, the API that might be useful at an Issuer when acting on behalf of a holder.
+
+5. The class diagram is a distillation across all component instances in all sequence and communications diagrams, so it starts to suggest an API for each of those components. Since I have only modeled one scenario's issuance and verification, I expect the API is not full coverage. However, it is nice to see that I only have the messages indicated by the USCIS, CHAPI-based flow (where, for example, VCs are always delivered in VPs, so the Verifier Service doesn't need a Verify VC method).
+
+6. The message names are chosen for logical consistency in "normal English"; they should likely be turned into camel case or something and we can have a bikeshed festival. 
+
+7. The dance between roles and services matches the architecture for the services operating SaaS style for a front-end that is providing the "role" functionality on behalf of the actual entity in that role. For example, the USCIS plugfest had mock-up USCIS websites that beneficiaries interacted with, and which, in turn, it interacted with Issuer services. It is understood that the enterprising organization could run both the role and service software using its own bespoke custom software.
+
+8. It is worth noting that all of the user tasks from the VC Use Cases document, except two, are accomodated. https://w3c.github.io/vc-use-cases/#user-tasks In particular, "move claim" and "amend claim" don't really have much support: neither the spec nor any implementation I know of addressed these use cases. "Move claim" feels like it gets addressed by "store", "retrieve", and "delete". Notably, the "delete" is not in the VC use case document, but probably should be; It almost certainly needs to be a feature in at least the storage service API. For the "amend" claim, I believe the only real way to do that today (given cryptographic proofs) is to revoke and re-issue. FWIW, I think we should remove "move" and "amend" the VC Use Cases document.
+
+9. The "revoke" capability is not modelled yet, but it makes sense to add it to the status service (we just have the verifier service checking status). I just didn't build out that diagram.
+
+That's it for now.
+
+Plenty of fodder for discussion.
+
+Comments and feedback welcome.
+
+-j
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
