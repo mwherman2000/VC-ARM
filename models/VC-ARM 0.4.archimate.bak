@@ -222,7 +222,7 @@
     <element xsi:type="archimate:FlowRelationship" name="12. Prompt for VC Acceptance" id="id-ce4cfcb3d86449d5ae86ed425bc5f2a3" source="id-a03a7444b0f3499d950d5e9332a2ca58" target="id-425c673a022f4662941015db655f503e"/>
     <element xsi:type="archimate:FlowRelationship" name="6. Mint VP" id="id-8b8c92d3e9604942977753aedb3163b3" source="id-7e064d9a274a432bbca4f9107d67d92a" target="id-b89f7bc7dab04c119884cdb49d324cb8"/>
     <element xsi:type="archimate:FlowRelationship" name="7. Get VP" id="id-9424c364c46c42f08a94283dc8abfaf7" source="id-b89f7bc7dab04c119884cdb49d324cb8" target="id-b6d8b54443664fc7803379d6c42048c2"/>
-    <element xsi:type="archimate:FlowRelationship" name="19. VC Issued" id="id-27bdd7ef4e34478fa501bf6da5494c32" source="id-a03a7444b0f3499d950d5e9332a2ca58" target="id-fe5e37f1380047ec8645fe561bbcf710"/>
+    <element xsi:type="archimate:FlowRelationship" name="19. VC Receipt Acknowledged" id="id-c56ee35725f442588e29dafd79661f08" source="id-a03a7444b0f3499d950d5e9332a2ca58" target="id-fe5e37f1380047ec8645fe561bbcf710"/>
   </folder>
   <folder name="Views" id="id-19c0f59c23d349d19f16ace39ee05d7e" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents Hollace Holder" id="id-057761f3dbe04865ae358b3adf562c9b">
@@ -674,7 +674,7 @@
         <bounds x="-228" y="84" width="375" height="457"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-9f353a3a1af44dae8c2c7d6e8d334aeb" source="id-f911ab0a913b4d738366156e345851f6" target="id-df58d402c7b647dcb0715752e9b06c99" archimateRelationship="id-7d4dc73524e34417b63003dcb2f88d13"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-ade3a4a0470645b8897b43745459b0cb" source="id-f911ab0a913b4d738366156e345851f6" target="id-498fe21177164ae5bd73fe2450f45db9" archimateRelationship="id-2ea2f7cf44d44aa7a6dfbca740e0333f"/>
-        <child xsi:type="archimate:DiagramObject" id="id-498fe21177164ae5bd73fe2450f45db9" targetConnections="id-ec4456e969fe499f8e2ad51ed5b25530 id-ade3a4a0470645b8897b43745459b0cb id-5c853d70b66b4b389edad24085246c15 id-2cc1b329d8494e349e1ab5de3d73ee2c id-39528f31e7fb489a80fad6c0c4022f96 id-bf9dffc425404f5299f6c0b190e60f04" archimateElement="id-fe5e37f1380047ec8645fe561bbcf710">
+        <child xsi:type="archimate:DiagramObject" id="id-498fe21177164ae5bd73fe2450f45db9" targetConnections="id-ec4456e969fe499f8e2ad51ed5b25530 id-ade3a4a0470645b8897b43745459b0cb id-5c853d70b66b4b389edad24085246c15 id-2cc1b329d8494e349e1ab5de3d73ee2c id-bf9dffc425404f5299f6c0b190e60f04 id-027180ffd21046f1a2df5220e74689ab" archimateElement="id-fe5e37f1380047ec8645fe561bbcf710">
           <bounds x="230" y="36" width="120" height="73"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-df58d402c7b647dcb0715752e9b06c99" targetConnections="id-9f353a3a1af44dae8c2c7d6e8d334aeb" archimateElement="id-d2d1a9dd12d84ac580e61636b8be332b">
@@ -737,13 +737,13 @@
             <sourceConnection xsi:type="archimate:Connection" id="id-2eb75da548c64c0eba9d3aa0e30f9c9a" textPosition="0" source="id-f04ebe92b0004b309686a4a0707ef27b" target="id-cb75175af91b4270a9a9c3b15bfdca40" archimateRelationship="id-ce4cfcb3d86449d5ae86ed425bc5f2a3">
               <bendpoint startX="174" endX="-36" endY="156"/>
             </sourceConnection>
-            <sourceConnection xsi:type="archimate:Connection" id="id-39528f31e7fb489a80fad6c0c4022f96" textPosition="0" source="id-f04ebe92b0004b309686a4a0707ef27b" target="id-498fe21177164ae5bd73fe2450f45db9" archimateRelationship="id-27bdd7ef4e34478fa501bf6da5494c32">
-              <bendpoint startX="-150" startY="12" endX="359" endY="168"/>
-              <bendpoint startX="-150" startY="-144" endX="359" endY="12"/>
-            </sourceConnection>
             <sourceConnection xsi:type="archimate:Connection" id="id-bf9dffc425404f5299f6c0b190e60f04" textPosition="0" source="id-f04ebe92b0004b309686a4a0707ef27b" target="id-498fe21177164ae5bd73fe2450f45db9" archimateRelationship="id-e8dffb3b25934c4c98350821b60a5381">
               <bendpoint startX="-126" startY="-12" endX="383" endY="144"/>
               <bendpoint startX="-126" startY="-144" endX="383" endY="12"/>
+            </sourceConnection>
+            <sourceConnection xsi:type="archimate:Connection" id="id-027180ffd21046f1a2df5220e74689ab" textPosition="0" source="id-f04ebe92b0004b309686a4a0707ef27b" target="id-498fe21177164ae5bd73fe2450f45db9" archimateRelationship="id-c56ee35725f442588e29dafd79661f08">
+              <bendpoint startX="-151" startY="12" endX="358" endY="168"/>
+              <bendpoint startX="-151" startY="-144" endX="358" endY="12"/>
             </sourceConnection>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-bdcee565d5e8433e8a098fdd68f6fae8" targetConnections="id-ac2b1f09a4074e12a2e218912d24d298 id-376087f1d902434fb5d389843b329f37" archimateElement="id-1d0df3e8af7e4ceaa915fc880ae9ad13">
@@ -767,8 +767,8 @@
               <bendpoint startX="-30" startY="69" endX="-30" endY="-87"/>
             </sourceConnection>
             <sourceConnection xsi:type="archimate:Connection" id="id-2cc1b329d8494e349e1ab5de3d73ee2c" textPosition="0" source="id-5ed70757f2e64176af1db3533057539e" target="id-498fe21177164ae5bd73fe2450f45db9" archimateRelationship="id-1eda938091f64993850206f385fab18b">
-              <bendpoint startX="-174" startY="6" endX="335" endY="276"/>
-              <bendpoint startX="-174" startY="-258" endX="335" endY="12"/>
+              <bendpoint startX="-175" startY="6" endX="334" endY="276"/>
+              <bendpoint startX="-175" startY="-258" endX="334" endY="12"/>
             </sourceConnection>
           </child>
         </child>
@@ -1567,7 +1567,6 @@ THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS
 BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE. THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.&#xD;
 &#xD;
 1. Definitions&#xD;
-&#xD;
 &quot;Collective Work&quot; means a work, such as a periodical issue, anthology or encyclopedia, in which the Work in its entirety in unmodified form, along with a number of other contributions, constituting separate and independent works in themselves, are assembled into a collective whole. A work that constitutes a Collective Work will not be considered a Derivative Work (as defined below) for the purposes of this License.&#xD;
 &quot;Derivative Work&quot; means a work based upon the Work or upon the Work and other pre-existing works, such as a translation, musical arrangement, dramatization, fictionalization, motion picture version, sound recording, art reproduction, abridgment, condensation, or any other form in which the Work may be recast, transformed, or adapted, except that a work that constitutes a Collective Work will not be considered a Derivative Work for the purpose of this License. For the avoidance of doubt, where the Work is a musical composition or sound recording, the synchronization of the Work in timed-relation with a moving image (&quot;synching&quot;) will be considered a Derivative Work for the purpose of this License.&#xD;
 &quot;Licensor&quot; means the individual or entity that offers the Work under the terms of this License.&#xD;
@@ -1575,38 +1574,39 @@ BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE B
 &quot;Work&quot; means the copyrightable work of authorship offered under the terms of this License.&#xD;
 &quot;You&quot; means an individual or entity exercising rights under this License who has not previously violated the terms of this License with respect to the Work, or who has received express permission from the Licensor to exercise rights under this License despite a previous violation.&#xD;
 &quot;License Elements&quot; means the following high-level license attributes as selected by Licensor and indicated in the title of this License: Attribution, ShareAlike.&#xD;
-2. Fair Use Rights. Nothing in this license is intended to reduce, limit, or restrict any rights arising from fair use, first sale or other limitations on the exclusive rights of the copyright owner under copyright law or other applicable laws.&#xD;
 &#xD;
-3. License Grant. Subject to the terms and conditions of this License, Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to exercise the rights in the Work as stated below:&#xD;
+2. Fair Use Rights. &#xD;
+Nothing in this license is intended to reduce, limit, or restrict any rights arising from fair use, first sale or other limitations on the exclusive rights of the copyright owner under copyright law or other applicable laws.&#xD;
 &#xD;
+3. License Grant. &#xD;
+Subject to the terms and conditions of this License, Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to exercise the rights in the Work as stated below:&#xD;
 to reproduce the Work, to incorporate the Work into one or more Collective Works, and to reproduce the Work as incorporated in the Collective Works;&#xD;
 to create and reproduce Derivative Works;&#xD;
 to distribute copies or phonorecords of, display publicly, perform publicly, and perform publicly by means of a digital audio transmission the Work including as incorporated in Collective Works;&#xD;
 to distribute copies or phonorecords of, display publicly, perform publicly, and perform publicly by means of a digital audio transmission Derivative Works.&#xD;
 For the avoidance of doubt, where the work is a musical composition:&#xD;
-&#xD;
 Performance Royalties Under Blanket Licenses. Licensor waives the exclusive right to collect, whether individually or via a performance rights society (e.g. ASCAP, BMI, SESAC), royalties for the public performance or public digital performance (e.g. webcast) of the Work.&#xD;
 Mechanical Rights and Statutory Royalties. Licensor waives the exclusive right to collect, whether individually or via a music rights society or designated agent (e.g. Harry Fox Agency), royalties for any phonorecord You create from the Work (&quot;cover version&quot;) and distribute, subject to the compulsory license created by 17 USC Section 115 of the US Copyright Act (or the equivalent in other jurisdictions).&#xD;
 Webcasting Rights and Statutory Royalties. For the avoidance of doubt, where the Work is a sound recording, Licensor waives the exclusive right to collect, whether individually or via a performance-rights society (e.g. SoundExchange), royalties for the public digital performance (e.g. webcast) of the Work, subject to the compulsory license created by 17 USC Section 114 of the US Copyright Act (or the equivalent in other jurisdictions).&#xD;
 The above rights may be exercised in all media and formats whether now known or hereafter devised. The above rights include the right to make such modifications as are technically necessary to exercise the rights in other media and formats. All rights not expressly granted by Licensor are hereby reserved.&#xD;
 &#xD;
-4. Restrictions.The license granted in Section 3 above is expressly made subject to and limited by the following restrictions:&#xD;
-&#xD;
+4. Restrictions.&#xD;
+The license granted in Section 3 above is expressly made subject to and limited by the following restrictions:&#xD;
 You may distribute, publicly display, publicly perform, or publicly digitally perform the Work only under the terms of this License, and You must include a copy of, or the Uniform Resource Identifier for, this License with every copy or phonorecord of the Work You distribute, publicly display, publicly perform, or publicly digitally perform. You may not offer or impose any terms on the Work that alter or restrict the terms of this License or the recipients' exercise of the rights granted hereunder. You may not sublicense the Work. You must keep intact all notices that refer to this License and to the disclaimer of warranties. You may not distribute, publicly display, publicly perform, or publicly digitally perform the Work with any technological measures that control access or use of the Work in a manner inconsistent with the terms of this License Agreement. The above applies to the Work as incorporated in a Collective Work, but this does not require the Collective Work apart from the Work itself to be made subject to the terms of this License. If You create a Collective Work, upon notice from any Licensor You must, to the extent practicable, remove from the Collective Work any reference to such Licensor or the Original Author, as requested. If You create a Derivative Work, upon notice from any Licensor You must, to the extent practicable, remove from the Derivative Work any reference to such Licensor or the Original Author, as requested.&#xD;
 You may distribute, publicly display, publicly perform, or publicly digitally perform a Derivative Work only under the terms of this License, a later version of this License with the same License Elements as this License, or a Creative Commons iCommons license that contains the same License Elements as this License (e.g. Attribution-ShareAlike 2.0 Japan). You must include a copy of, or the Uniform Resource Identifier for, this License or other license specified in the previous sentence with every copy or phonorecord of each Derivative Work You distribute, publicly display, publicly perform, or publicly digitally perform. You may not offer or impose any terms on the Derivative Works that alter or restrict the terms of this License or the recipients' exercise of the rights granted hereunder, and You must keep intact all notices that refer to this License and to the disclaimer of warranties. You may not distribute, publicly display, publicly perform, or publicly digitally perform the Derivative Work with any technological measures that control access or use of the Work in a manner inconsistent with the terms of this License Agreement. The above applies to the Derivative Work as incorporated in a Collective Work, but this does not require the Collective Work apart from the Derivative Work itself to be made subject to the terms of this License.&#xD;
 If you distribute, publicly display, publicly perform, or publicly digitally perform the Work or any Derivative Works or Collective Works, You must keep intact all copyright notices for the Work and give the Original Author credit reasonable to the medium or means You are utilizing by conveying the name (or pseudonym if applicable) of the Original Author if supplied; the title of the Work if supplied; to the extent reasonably practicable, the Uniform Resource Identifier, if any, that Licensor specifies to be associated with the Work, unless such URI does not refer to the copyright notice or licensing information for the Work; and in the case of a Derivative Work, a credit identifying the use of the Work in the Derivative Work (e.g., &quot;French translation of the Work by Original Author,&quot; or &quot;Screenplay based on original Work by Original Author&quot;). Such credit may be implemented in any reasonable manner; provided, however, that in the case of a Derivative Work or Collective Work, at a minimum such credit will appear where any other comparable authorship credit appears and in a manner at least as prominent as such other comparable authorship credit.&#xD;
-5. Representations, Warranties and Disclaimer&#xD;
 &#xD;
+5. Representations, Warranties and Disclaimer&#xD;
 UNLESS OTHERWISE AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE MATERIALS, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER OR NOT DISCOVERABLE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO SUCH EXCLUSION MAY NOT APPLY TO YOU.&#xD;
 &#xD;
-6. Limitation on Liability. EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.&#xD;
+6. Limitation on Liability. &#xD;
+EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.&#xD;
 &#xD;
 7. Termination&#xD;
-&#xD;
 This License and the rights granted hereunder will terminate automatically upon any breach by You of the terms of this License. Individuals or entities who have received Derivative Works or Collective Works from You under this License, however, will not have their licenses terminated provided such individuals or entities remain in full compliance with those licenses. Sections 1, 2, 5, 6, 7, and 8 will survive any termination of this License.&#xD;
 Subject to the above terms and conditions, the license granted here is perpetual (for the duration of the applicable copyright in the Work). Notwithstanding the above, Licensor reserves the right to release the Work under different license terms or to stop distributing the Work at any time; provided, however that any such election will not serve to withdraw this License (or any other license that has been, or is required to be, granted under the terms of this License), and this License will continue in full force and effect unless terminated as stated above.&#xD;
-8. Miscellaneous&#xD;
 &#xD;
+8. Miscellaneous&#xD;
 Each time You distribute or publicly digitally perform the Work or a Collective Work, the Licensor offers to the recipient a license to the Work on the same terms and conditions as the license granted to You under this License.&#xD;
 Each time You distribute or publicly digitally perform a Derivative Work, Licensor offers to the recipient a license to the original Work on the same terms and conditions as the license granted to You under this License.&#xD;
 If any provision of this License is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this License, and without further action by the parties to this agreement, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.&#xD;
