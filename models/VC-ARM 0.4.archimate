@@ -1445,7 +1445,7 @@
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="CONTRIBUTORS" id="id-9aa2f518a1414287beecce222e41173e">
       <child xsi:type="archimate:Note" id="id-8bf28cbac6394c4db4a8e0ee473406f1" textAlignment="1" fillColor="#ffffff">
-        <bounds x="24" y="108" width="577" height="193"/>
+        <bounds x="612" y="108" width="577" height="193"/>
         <content>On 21/08/2021 09:41, Michael Herman (Trusted Digital Web) wrote:&#xD;
 Hi Michael&#xD;
 I have had a quick scan and there is a lot I don't agree with. Here are some of them.&#xD;
@@ -1463,7 +1463,7 @@ David Chadwick&#xD;
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.4 CONTRIBUTORS</content>
       </child>
       <child xsi:type="archimate:Note" id="id-77ff0059d0f74cc0a0db1efacf4bb1cc" textAlignment="1" fillColor="#ffffff">
-        <bounds x="24" y="324" width="577" height="1189"/>
+        <bounds x="12" y="108" width="577" height="1189"/>
         <content>From: Joe Andrieu &lt;joe@legreq.com> &#xD;
 Sent: August 16, 2021 3:16 PM&#xD;
 To: Credentials Community Group &lt;public-credentials@w3.org>&#xD;
@@ -1517,8 +1517,8 @@ Comments and feedback welcome.&#xD;
     <element xsi:type="archimate:ArchimateDiagramModel" name="FAQ" id="id-66320fa90a1a491fb546a35e341736f6">
       <child xsi:type="archimate:Note" id="id-3a858868b2144f2cad5218dd00d569b4" textAlignment="1" fillColor="#ffffff">
         <bounds x="24" y="108" width="577" height="517"/>
-        <content>1. What is the listener subrole and the Listen funcion for?&#xD;
-A: When a role (their agent actually) is not doing any work, it is in the Listener subrole - that is, the Agent (or Aervice) waiting for incoming requests to do work. The Agent is listening for new work. An Agent can also have an active Listener subrole while actively doing other work (dependent on the amount of multitasking supported by the environment). &#xD;
+        <content>1. What is the Listener subrole and the Listen function for?&#xD;
+A: When a Role (their Agent actually) is not doing any work, it is in the Listener subrole - that is, the Agent (or Service) waiting for incoming requests to do work. The Agent is listening for new work. An Agent can also have an active Listener subrole while actively doing other work (dependent on the amount of multitasking supported by the environment). &#xD;
 </content>
       </child>
       <child xsi:type="archimate:Note" id="id-e934f7502eac488eaa6cc41bd53b0e2e" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
@@ -1528,7 +1528,7 @@ A: When a role (their agent actually) is not doing any work, it is in the Listen
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="LICENSE" id="id-d31e320a4c5748e6b4f015014c75f41c">
       <child xsi:type="archimate:Note" id="id-6c5f725d98894e58b16cd921f4421f53" textAlignment="1" fillColor="#ffffff">
-        <bounds x="24" y="24" width="517" height="349"/>
+        <bounds x="552" y="24" width="517" height="349"/>
         <content>MIT License&#xD;
 &#xD;
 Copyright (c) 2021 Michael Herman (Trusted Digital Web)&#xD;
@@ -1552,7 +1552,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&#x
 SOFTWARE.</content>
       </child>
       <child xsi:type="archimate:Note" id="id-235cc38129d14ee9b2e5260a16e3a78b" textAlignment="1" fillColor="#ffffff">
-        <bounds x="24" y="395" width="517" height="2954"/>
+        <bounds x="12" y="24" width="517" height="2954"/>
         <content>Creative Commons&#xD;
 &#xD;
 Creative Commons Legal Code&#xD;
@@ -1624,7 +1624,7 @@ Creative Commons may be contacted at https://creativecommons.org/.&#xD;
     <element xsi:type="archimate:ArchimateDiagramModel" name="AUDIENCE" id="id-3e731719d63b490f8303ce8797439ea1">
       <child xsi:type="archimate:Note" id="id-0cd53ed673f345809104e8d6b9621c20" textAlignment="1" fillColor="#ffffff">
         <bounds x="24" y="108" width="577" height="133"/>
-        <content>Intended Audience&#xD;
+        <content>### Intended Audience&#xD;
 &#xD;
 The intended audience for the VC-ARM model is a broad range of professionals interested in furthering the application of Verifiable Credentials technology for use in software apps, agents, and services. The primary audience includes software architects, application developers, and user experience (UX) specialists; as well as people involved in a broad range of standards efforts related to decentralized identity, verified credentials, and secure storage.&#xD;
 </content>

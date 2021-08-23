@@ -227,7 +227,7 @@
   <folder name="Views" id="id-19c0f59c23d349d19f16ace39ee05d7e" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents Hollace Holder" id="id-057761f3dbe04865ae358b3adf562c9b">
       <child xsi:type="archimate:DiagramObject" id="id-b266989dbb77420ca4b0226c500523d9" targetConnections="id-631323c7e8df4ec792a6a9dda315b1e4" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#d5ffff" archimateElement="id-405c42a06ab948eea967fe7dd9a34a89">
-        <bounds x="48" y="134" width="120" height="58"/>
+        <bounds x="48" y="132" width="120" height="60"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-b14620dcebba415a85351bb4efc1ab07" textPosition="0" source="id-b266989dbb77420ca4b0226c500523d9" target="id-88c50493eec0427f935a317f36d0f21b" archimateRelationship="id-786967b79406474e94b7978a9ec0ab1d"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-88c50493eec0427f935a317f36d0f21b" targetConnections="id-b14620dcebba415a85351bb4efc1ab07" fillColor="#d5ffff" archimateElement="id-499a0c6808924bf789e0c3c78a2a7ed4">
@@ -330,7 +330,7 @@
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents Izzy Issuer" id="id-075b1aac61ed49efa0bf8717405aa182">
       <child xsi:type="archimate:DiagramObject" id="id-b452280c2ea241edb73e3cf642ee895a" targetConnections="id-e1b6d0027162420bb99ec0384fd8ad17" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#d5ffd5" archimateElement="id-9a28ad79bb2a4a34bd42419090201f62">
-        <bounds x="48" y="134" width="120" height="58"/>
+        <bounds x="48" y="132" width="120" height="60"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-21d2c2d679cb40049f32d72b531e6f54" textPosition="0" source="id-b452280c2ea241edb73e3cf642ee895a" target="id-bc8906d875194695850c2d771b32132a" archimateRelationship="id-2757869e44894fffb9bb8b27be30a095"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-bc8906d875194695850c2d771b32132a" targetConnections="id-21d2c2d679cb40049f32d72b531e6f54" fillColor="#d5ffd5" archimateElement="id-827a7e5abc0a4636b7b322452d03d2f4">
@@ -515,7 +515,7 @@
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Actors-Agents Vera Verifier" id="id-423198ff6d6d4ae796186b3ce2f7b6b9">
       <child xsi:type="archimate:DiagramObject" id="id-78ee92f7a2d94d2cb4d55d85bc8e2240" targetConnections="id-2eaddbc1ffd6427eb878f4afc958e911" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#ffead5" archimateElement="id-3432af7e3a2c4e6293184ba2ba4ceaf4">
-        <bounds x="48" y="131" width="120" height="58"/>
+        <bounds x="48" y="131" width="120" height="62"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a080d2b2622c46c888bdb1576e699791" textPosition="0" source="id-78ee92f7a2d94d2cb4d55d85bc8e2240" target="id-a35423fa2eb343c99faa7294427f309b" archimateRelationship="id-3c036f0228f94363b85caec5daff0681"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-a35423fa2eb343c99faa7294427f309b" targetConnections="id-a080d2b2622c46c888bdb1576e699791" fillColor="#ffead5" archimateElement="id-2c1342d00cd44aa38e355637cd9c0a4e">
@@ -1445,7 +1445,7 @@
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="CONTRIBUTORS" id="id-9aa2f518a1414287beecce222e41173e">
       <child xsi:type="archimate:Note" id="id-8bf28cbac6394c4db4a8e0ee473406f1" textAlignment="1" fillColor="#ffffff">
-        <bounds x="24" y="108" width="577" height="193"/>
+        <bounds x="612" y="108" width="577" height="193"/>
         <content>On 21/08/2021 09:41, Michael Herman (Trusted Digital Web) wrote:&#xD;
 Hi Michael&#xD;
 I have had a quick scan and there is a lot I don't agree with. Here are some of them.&#xD;
@@ -1463,7 +1463,7 @@ David Chadwick&#xD;
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.4 CONTRIBUTORS</content>
       </child>
       <child xsi:type="archimate:Note" id="id-77ff0059d0f74cc0a0db1efacf4bb1cc" textAlignment="1" fillColor="#ffffff">
-        <bounds x="24" y="324" width="577" height="1189"/>
+        <bounds x="12" y="108" width="577" height="1189"/>
         <content>From: Joe Andrieu &lt;joe@legreq.com> &#xD;
 Sent: August 16, 2021 3:16 PM&#xD;
 To: Credentials Community Group &lt;public-credentials@w3.org>&#xD;
@@ -1517,8 +1517,8 @@ Comments and feedback welcome.&#xD;
     <element xsi:type="archimate:ArchimateDiagramModel" name="FAQ" id="id-66320fa90a1a491fb546a35e341736f6">
       <child xsi:type="archimate:Note" id="id-3a858868b2144f2cad5218dd00d569b4" textAlignment="1" fillColor="#ffffff">
         <bounds x="24" y="108" width="577" height="517"/>
-        <content>1. What is the listener subrole and the Listen funcion for?&#xD;
-A: When a role (their agent actually) is not doing any work, it is in the Listener subrole - that is, the Agent (or Aervice) waiting for incoming requests to do work. The Agent is listening for new work. An Agent can also have an active Listener subrole while actively doing other work (dependent on the amount of multitasking supported by the environment). &#xD;
+        <content>1. What is the Listener subrole and the Listen function for?&#xD;
+A: When a Role (their Agent actually) is not doing any work, it is in the Listener subrole - that is, the Agent (or Service) waiting for incoming requests to do work. The Agent is listening for new work. An Agent can also have an active Listener subrole while actively doing other work (dependent on the amount of multitasking supported by the environment). &#xD;
 </content>
       </child>
       <child xsi:type="archimate:Note" id="id-e934f7502eac488eaa6cc41bd53b0e2e" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
@@ -1528,7 +1528,7 @@ A: When a role (their agent actually) is not doing any work, it is in the Listen
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="LICENSE" id="id-d31e320a4c5748e6b4f015014c75f41c">
       <child xsi:type="archimate:Note" id="id-6c5f725d98894e58b16cd921f4421f53" textAlignment="1" fillColor="#ffffff">
-        <bounds x="24" y="24" width="517" height="349"/>
+        <bounds x="552" y="24" width="517" height="349"/>
         <content>MIT License&#xD;
 &#xD;
 Copyright (c) 2021 Michael Herman (Trusted Digital Web)&#xD;
@@ -1552,7 +1552,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&#x
 SOFTWARE.</content>
       </child>
       <child xsi:type="archimate:Note" id="id-235cc38129d14ee9b2e5260a16e3a78b" textAlignment="1" fillColor="#ffffff">
-        <bounds x="24" y="395" width="517" height="2954"/>
+        <bounds x="12" y="24" width="517" height="2954"/>
         <content>Creative Commons&#xD;
 &#xD;
 Creative Commons Legal Code&#xD;
