@@ -1624,7 +1624,7 @@ Creative Commons may be contacted at https://creativecommons.org/.&#xD;
     <element xsi:type="archimate:ArchimateDiagramModel" name="AUDIENCE" id="id-3e731719d63b490f8303ce8797439ea1">
       <child xsi:type="archimate:Note" id="id-0cd53ed673f345809104e8d6b9621c20" textAlignment="1" fillColor="#ffffff">
         <bounds x="24" y="108" width="577" height="133"/>
-        <content>Intended Audience&#xD;
+        <content>### Intended Audience&#xD;
 &#xD;
 The intended audience for the VC-ARM model is a broad range of professionals interested in furthering the application of Verifiable Credentials technology for use in software apps, agents, and services. The primary audience includes software architects, application developers, and user experience (UX) specialists; as well as people involved in a broad range of standards efforts related to decentralized identity, verified credentials, and secure storage.&#xD;
 </content>
