@@ -88,7 +88,6 @@
     <element xsi:type="archimate:Grouping" name="Issuer Agent" id="id-1cc787a0903a4aceba3f3c383750720f"/>
     <element xsi:type="archimate:Grouping" name="Issuer Wallet" id="id-a494c547b12744f491fa5a8f76b06387"/>
     <element xsi:type="archimate:Grouping" name="Verifier Agent" id="id-15216f0135744fbea8d46d301eea373c"/>
-    <element xsi:type="archimate:Grouping" name="Vera Verifier" id="id-3b2910de433241e886e134b465ab0b14"/>
     <element xsi:type="archimate:Grouping" name="Verifiable Data Registry (VDR) Agent (Singleton)" id="id-7cb45253d77f4068ae1a3cfa44d5d845"/>
     <element xsi:type="archimate:Grouping" name="System of Record (SOR) (Service)" id="id-504f46941d5a4f5194e0964522c8a19e"/>
   </folder>
@@ -622,38 +621,12 @@
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Detailed Communications Flows VC Issuing Process" id="id-6085e76d40e44f57abc851fc9fc211aa">
-      <child xsi:type="archimate:DiagramObject" id="id-5c58125a38aa451584d8f80e599a4302" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#fff4ea" archimateElement="id-3b2910de433241e886e134b465ab0b14">
-        <bounds x="-227" y="564" width="373" height="385"/>
-        <child xsi:type="archimate:DiagramObject" id="id-c52b1d34ab2e461a94012bdbe493da57" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffead5" archimateElement="id-15216f0135744fbea8d46d301eea373c">
-          <bounds x="24" y="36" width="171" height="337"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-b545aba97bf44ffc9f40e8867bfcf3eb" source="id-c52b1d34ab2e461a94012bdbe493da57" target="id-739b2b0174ef4243976de8fb7b934e74" archimateRelationship="id-2cd3757610924d6f85c1d7b1415a0d4f"/>
-          <sourceConnection xsi:type="archimate:Connection" id="id-4babb4326c704c6897578620bb9b4d92" source="id-c52b1d34ab2e461a94012bdbe493da57" target="id-aa899a2c3d0a44a697f492206dc20667" archimateRelationship="id-7e8ec324027d4eae856a8e517dbbba5c"/>
-          <child xsi:type="archimate:DiagramObject" id="id-aa899a2c3d0a44a697f492206dc20667" targetConnections="id-4babb4326c704c6897578620bb9b4d92 id-d5df2c613d81434fb4355bd6178f0f63 id-658507f80d2b4d76921bfe869f2ebf97" archimateElement="id-a4e2ca0fa5ec4c0bad6449ffd2c2619e">
-            <bounds x="26" y="36" width="120" height="55"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-739b2b0174ef4243976de8fb7b934e74" targetConnections="id-b545aba97bf44ffc9f40e8867bfcf3eb" archimateElement="id-7d9519d67d0941dcbe2f4980b55c0242">
-            <bounds x="26" y="144" width="120" height="181"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-e9430635d59e441083d6a32c79315b19" source="id-739b2b0174ef4243976de8fb7b934e74" target="id-8cd80a4fc59e4fa1911de073bafda175" archimateRelationship="id-27b5653073264106ab3c8e667509da79"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-d5df2c613d81434fb4355bd6178f0f63" source="id-739b2b0174ef4243976de8fb7b934e74" target="id-aa899a2c3d0a44a697f492206dc20667" archimateRelationship="id-7204101e11f247caa0a94c1464af89b5"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-9aa9bc1daa0942be9ff7a9fc937f39d8" source="id-739b2b0174ef4243976de8fb7b934e74" target="id-05b4259e84094f54bd4183b6b6c07653" archimateRelationship="id-730312eaf2614791b8201d30e7b36b7d"/>
-            <child xsi:type="archimate:DiagramObject" id="id-8cd80a4fc59e4fa1911de073bafda175" targetConnections="id-e9430635d59e441083d6a32c79315b19" archimateElement="id-2c946b4504ba47c18a660bcf9cbe9e78">
-              <bounds x="12" y="96" width="97" height="31"/>
-              <sourceConnection xsi:type="archimate:Connection" id="id-a1e976395e7743789ec57dc4f24afb87" source="id-8cd80a4fc59e4fa1911de073bafda175" target="id-b0edad02f48e43bca2a53f121c71d874" archimateRelationship="id-a1e3d3c8a5454bd1be2ef1694a2f99a9">
-                <bendpoint startX="178" startY="-3" endX="-1" endY="-192"/>
-              </sourceConnection>
-            </child>
-            <child xsi:type="archimate:DiagramObject" id="id-05b4259e84094f54bd4183b6b6c07653" targetConnections="id-9aa9bc1daa0942be9ff7a9fc937f39d8" archimateElement="id-a38799f852e347b998b3a3b6e3e5a1a4">
-              <bounds x="12" y="60" width="97" height="31"/>
-            </child>
-          </child>
-        </child>
-      </child>
       <child xsi:type="archimate:Note" id="id-eeef0ae161ae4506a60b14fa13b1a69b" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
         <bounds x="-228" y="12" width="1094" height="49"/>
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.4 - VC Issuing Process</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-cb5d9e37673b448994d2c7fbd6601dde" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d5d5ff" archimateElement="id-7cb45253d77f4068ae1a3cfa44d5d845">
-        <bounds x="-226" y="972" width="373" height="373"/>
+        <bounds x="-227" y="924" width="373" height="373"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-038606eaad9940298db204f08d2a22f0" source="id-cb5d9e37673b448994d2c7fbd6601dde" target="id-b0edad02f48e43bca2a53f121c71d874" archimateRelationship="id-f76c005a02f24f2ea62928b5ffd11954"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-5d2da67ccd564828aaa92aca13b67e7d" source="id-cb5d9e37673b448994d2c7fbd6601dde" target="id-7146101fa3154987b52d1dba7a7a1c7b" archimateRelationship="id-254c85ed8f8a455f9f8d03dc4af5f5a3"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-34d86677fd684083a719d5c32427a75c" source="id-cb5d9e37673b448994d2c7fbd6601dde" target="id-4e0023d589dd493ead99e6ef2b5b9b8b" archimateRelationship="id-e27bb3eac4d14cc9834c633362dea765"/>
@@ -739,7 +712,7 @@
           <child xsi:type="archimate:DiagramObject" id="id-06d8bce2f3264097ab1171c720b8cff3" targetConnections="id-0c52a62891eb468aa7d5f825a77216af" archimateElement="id-9f47580a5f244da5afe9552854843998">
             <bounds x="12" y="228" width="97" height="31"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-658507f80d2b4d76921bfe869f2ebf97" textPosition="0" source="id-06d8bce2f3264097ab1171c720b8cff3" target="id-aa899a2c3d0a44a697f492206dc20667" archimateRelationship="id-16d8333f28ce4545a7ff2da857329ee1">
-              <bendpoint startX="-181" startY="-3" endX="-2" endY="-195"/>
+              <bendpoint startX="-110" startY="-3" endX="-2" endY="-159"/>
             </sourceConnection>
           </child>
         </child>
@@ -808,7 +781,7 @@
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-2a7d303d824c4765a5ebf551e9c5977c" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#d5ffff" archimateElement="id-ad8500bc4fa44a96bfbff93b9854d1bc">
-        <bounds x="481" y="564" width="385" height="301"/>
+        <bounds x="481" y="564" width="385" height="337"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-8d04fa129a4942a0b3577c9b6c0cdec1" source="id-2a7d303d824c4765a5ebf551e9c5977c" target="id-542c2ebff23f475eb909f7f5221dd3f0" archimateRelationship="id-0956c392d1414af4b376fc0efe7e5e91"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-cba49391d9064b54826f58d5ebee8874" source="id-2a7d303d824c4765a5ebf551e9c5977c" target="id-a33ef2c6b7784e3ca1623de7d92eb646" archimateRelationship="id-554790279dca483d8abc992b0083a51a"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-13e171a20edc40db8badfaafbbe6fde8" source="id-2a7d303d824c4765a5ebf551e9c5977c" target="id-54fd31865d8d4ba3a49a1b89c03068c9" archimateRelationship="id-d43a28be6fe448fc9683e3164262dbeb"/>
@@ -824,7 +797,7 @@
           <sourceConnection xsi:type="archimate:Connection" id="id-11be937de2ad44d2b36f3a84f64574be" textPosition="0" source="id-1b43594acfa14e93b40218e765ef209e" target="id-a33ef2c6b7784e3ca1623de7d92eb646" archimateRelationship="id-a411ebe9b14848c5acd6d3ed079dbbcc"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-54fd31865d8d4ba3a49a1b89c03068c9" targetConnections="id-77c2d33f24794689853a6199fef2190e id-13e171a20edc40db8badfaafbbe6fde8" archimateElement="id-10a0bb1a6f5a42da8bd22528b1be71bb">
-          <bounds x="240" y="216" width="120" height="73"/>
+          <bounds x="240" y="216" width="120" height="109"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-a33ef2c6b7784e3ca1623de7d92eb646" targetConnections="id-db5a085544534e04b56c9bf84cfb2534 id-ecc682c2803a4e15ba29066820edd944 id-1abeed1e7d4c41dea003ba0de45626ef id-0f898908b77144caa9d9535106e126e9 id-11be937de2ad44d2b36f3a84f64574be id-cba49391d9064b54826f58d5ebee8874" archimateElement="id-b89f7bc7dab04c119884cdb49d324cb8">
           <bounds x="24" y="36" width="133" height="55"/>
@@ -833,7 +806,7 @@
           </sourceConnection>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-542c2ebff23f475eb909f7f5221dd3f0" targetConnections="id-594273244735458c813bd332ea6ba483 id-8d04fa129a4942a0b3577c9b6c0cdec1" archimateElement="id-3c14c3c766f04936ad9d70cefb44bc3d">
-          <bounds x="24" y="144" width="133" height="145"/>
+          <bounds x="24" y="144" width="133" height="181"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-8b777c6801a04b77bf3392ebae9ece41" source="id-542c2ebff23f475eb909f7f5221dd3f0" target="id-e42aca5e375747d29895812dd538be82" archimateRelationship="id-f41cf23aae9d4492849615da59c6c1f4"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-7cc9b695e46c41859a567d5091e143c6" source="id-542c2ebff23f475eb909f7f5221dd3f0" target="id-d4824eb7202e432ea91901b830de0d67" archimateRelationship="id-6d90e7a30cd847c4adafa4b2c9418943"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-77c2d33f24794689853a6199fef2190e" textPosition="0" source="id-542c2ebff23f475eb909f7f5221dd3f0" target="id-54fd31865d8d4ba3a49a1b89c03068c9" archimateRelationship="id-6e6df75e8c774b9899c7d5cdf3bd35d4"/>
@@ -846,14 +819,34 @@
           </child>
         </child>
       </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c52b1d34ab2e461a94012bdbe493da57" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffead5" archimateElement="id-15216f0135744fbea8d46d301eea373c">
+        <bounds x="-132" y="564" width="169" height="337"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-b545aba97bf44ffc9f40e8867bfcf3eb" source="id-c52b1d34ab2e461a94012bdbe493da57" target="id-739b2b0174ef4243976de8fb7b934e74" archimateRelationship="id-2cd3757610924d6f85c1d7b1415a0d4f"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-4babb4326c704c6897578620bb9b4d92" source="id-c52b1d34ab2e461a94012bdbe493da57" target="id-aa899a2c3d0a44a697f492206dc20667" archimateRelationship="id-7e8ec324027d4eae856a8e517dbbba5c"/>
+        <child xsi:type="archimate:DiagramObject" id="id-aa899a2c3d0a44a697f492206dc20667" targetConnections="id-4babb4326c704c6897578620bb9b4d92 id-d5df2c613d81434fb4355bd6178f0f63 id-658507f80d2b4d76921bfe869f2ebf97" archimateElement="id-a4e2ca0fa5ec4c0bad6449ffd2c2619e">
+          <bounds x="26" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-739b2b0174ef4243976de8fb7b934e74" targetConnections="id-b545aba97bf44ffc9f40e8867bfcf3eb" archimateElement="id-7d9519d67d0941dcbe2f4980b55c0242">
+          <bounds x="26" y="144" width="120" height="181"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-e9430635d59e441083d6a32c79315b19" source="id-739b2b0174ef4243976de8fb7b934e74" target="id-8cd80a4fc59e4fa1911de073bafda175" archimateRelationship="id-27b5653073264106ab3c8e667509da79"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-d5df2c613d81434fb4355bd6178f0f63" source="id-739b2b0174ef4243976de8fb7b934e74" target="id-aa899a2c3d0a44a697f492206dc20667" archimateRelationship="id-7204101e11f247caa0a94c1464af89b5"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-9aa9bc1daa0942be9ff7a9fc937f39d8" source="id-739b2b0174ef4243976de8fb7b934e74" target="id-05b4259e84094f54bd4183b6b6c07653" archimateRelationship="id-730312eaf2614791b8201d30e7b36b7d"/>
+          <child xsi:type="archimate:DiagramObject" id="id-8cd80a4fc59e4fa1911de073bafda175" targetConnections="id-e9430635d59e441083d6a32c79315b19" archimateElement="id-2c946b4504ba47c18a660bcf9cbe9e78">
+            <bounds x="12" y="96" width="97" height="31"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-a1e976395e7743789ec57dc4f24afb87" textPosition="0" source="id-8cd80a4fc59e4fa1911de073bafda175" target="id-b0edad02f48e43bca2a53f121c71d874" archimateRelationship="id-a1e3d3c8a5454bd1be2ef1694a2f99a9">
+              <bendpoint startX="106" startY="9" endX="-1" endY="-168"/>
+            </sourceConnection>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-05b4259e84094f54bd4183b6b6c07653" targetConnections="id-9aa9bc1daa0942be9ff7a9fc937f39d8" archimateElement="id-a38799f852e347b998b3a3b6e3e5a1a4">
+            <bounds x="12" y="60" width="97" height="31"/>
+          </child>
+        </child>
+      </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Detailed Communications Flows VC Presentation Process" id="id-62bd39098d3749e79229170d30a97f9c">
       <child xsi:type="archimate:Note" id="id-68d8da05414647aead46b4a88d854976" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
         <bounds x="24" y="24" width="1285" height="49"/>
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.4 - VC Presentation-Verification Process TBD</content>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-22eb30c5aee24fe48dfe09b33a763323" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffead5" archimateElement="id-3b2910de433241e886e134b465ab0b14">
-        <bounds x="912" y="96" width="400" height="865"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Detailed Communications Flows VC Verification Process" id="id-609190217838412aab943aadbbafa306">
@@ -861,17 +854,11 @@
         <bounds x="24" y="24" width="1285" height="49"/>
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.4 - VC Verification Process TBD</content>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-0db2358971cc450e89a77c8370d392a0" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffead5" archimateElement="id-3b2910de433241e886e134b465ab0b14">
-        <bounds x="912" y="96" width="400" height="865"/>
-      </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Detailed Communications Flows VC Self-Issuing Process" id="id-74e88234fb8c4c7dab6addb516dd1cb1">
       <child xsi:type="archimate:Note" id="id-ca77cc1254484b33b851228bf163a907" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
         <bounds x="24" y="24" width="1285" height="49"/>
         <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.4 - VC -Self-Issuing Process TBD</content>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-a5be51a9d8a04acd80e8cf9a873fc10f" font="1|Segoe UI|9.0|1|WINDOWS|1|-15|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffead5" archimateElement="id-3b2910de433241e886e134b465ab0b14">
-        <bounds x="912" y="96" width="400" height="865"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Communication Flows Issuer-and-Holder" id="id-4c0af73380a04267b448e217e11a80a4">
@@ -1473,7 +1460,7 @@ David Chadwick&#xD;
       </child>
       <child xsi:type="archimate:Note" id="id-b1fc110451bc419a87194d2c72766ed9" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
         <bounds x="24" y="24" width="577" height="61"/>
-        <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.3 CONTRIBUTORS</content>
+        <content>Verifiable Credentials Architecture Reference Model (VC-ARM) 0.4 CONTRIBUTORS</content>
       </child>
       <child xsi:type="archimate:Note" id="id-77ff0059d0f74cc0a0db1efacf4bb1cc" textAlignment="1" fillColor="#ffffff">
         <bounds x="24" y="324" width="577" height="1189"/>
