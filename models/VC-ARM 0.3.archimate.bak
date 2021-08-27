@@ -1588,7 +1588,7 @@ Creative Commons may be contacted at https://creativecommons.org/.&#xD;
         <bounds x="24" y="108" width="577" height="133"/>
         <content>Intended Audience&#xD;
 &#xD;
-The intended audience for the VC-ARM model is a broad range of professionals interested in furthering the application of Verifiable Credentials technology for use in software apps, agents, and services. The primary audience includes software architects, application developers, and user experience (UX) specialists; as well as people involved in a broad range of standards efforts related to decentralized identity, verified credentials, and secure storage.&#xD;
+The intended audience for the VC-ARM model is a broad range of professionals interested in furthering the application of Verifiable Credentials technology for use in software apps, agents, and services. The primary audience includes software architects, application developers, and user experience (UX) specialists; as well as other people involved in a broad range of standards efforts related to decentralized identity, verifiable credentials, and secure storage.&#xD;
 </content>
       </child>
       <child xsi:type="archimate:Note" id="id-7f38e41bc8eb426baebef8edabc20900" font="1|Segoe UI|13.8|1|WINDOWS|1|-23|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textAlignment="1" fillColor="#ffffff" borderType="2">
@@ -1679,5 +1679,17 @@ The intended audience for the VC-ARM model is a broad range of professionals int
 &#xD;
 1. Click on Views in the left pane.&#xD;
 2. Click on the name of a View.&#xD;
-3. Click on an element in the selected View.</purpose>
+3. Click on an element in the selected View.&#xD;
+&#xD;
+Intended Audience&#xD;
+&#xD;
+The intended audience for the VC-ARM model is a broad range of professionals interested in furthering the application of Verifiable Credentials technology for use in software apps, agents, and services. The primary audience includes software architects, application developers, and user experience (UX) specialists; as well as other people involved in a broad range of standards efforts related to decentralized identity, verifiable credentials, and secure storage.&#xD;
+&#xD;
+The purpose of this tutorial is to create the highlighted levels of learning in the mind of each intended audience member:&#xD;
+1. Awareness (An Overview of what is being described)&#xD;
+> 2. Knowledge (The “What” of what is being described)&#xD;
+>3. Understanding (The “How” of what is being described)&#xD;
+4. Wisdom (Deep Knowledge and Understanding acquired through Experience) &#xD;
+&#xD;
+</purpose>
 </archimate:model>
